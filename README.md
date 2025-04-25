@@ -1,34 +1,33 @@
-# CI/CD Final Project
+CI/CD Tools and Practices – Final Project Template
+This repository serves as the official template for the CI/CD Tools and Practices final project, part of the Coursera course.
 
-This project demonstrates a complete CI/CD pipeline using GitHub Actions and Tekton on OpenShift.
+How to Use
+Instead of forking, you should use this repository as a template to create a new repository under your own GitHub account. This method helps prevent any confusion when submitting Pull Requests later on.
 
-## Project Structure
+To do this, go to the Code tab of the repository and click the green Use this template button.
 
-- `app.py`: Flask application
-- `test_app.py`: Test suite
-- `requirements.txt`: Python dependencies
-- `.github/workflows/workflow.yml`: GitHub Actions workflow
-- `.tekton/tasks.yml`: Tekton tasks
+Please name your new repository: ci-cd-final-project.
 
-## Setup Instructions
+Environment Setup
+Once you're inside the lab environment, run the setup.sh script located in the ./bin directory to install the required tools:
 
-1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the application: `python app.py`
-4. Run tests: `pytest`
+bash
+Copy
+Edit
+bash bin/setup.sh
+After running the script, exit the current shell and open a new one to activate the Python virtual environment:
 
-## CI/CD Pipeline
+bash
+Copy
+Edit
+exit
+Project Tasks
+To be completed as part of the course exercises.
 
-The project uses:
-- GitHub Actions for linting and testing
-- Tekton for OpenShift pipeline tasks
-- OpenShift for deployment
+License
+This project is licensed under the Apache License. See the LICENSE file for details.
 
-## Screenshots
+Author
+Skills Network
 
-Please refer to the following screenshots in the project documentation:
-- OpenShift PVC details
-- GitHub Actions running successfully
-- OpenShift Pipeline details
-- OpenShift Pipeline running successfully
-- Application logs from OpenShift console
+© IBM Corporation 2023. All rights reserved.
